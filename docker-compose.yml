@@ -1,0 +1,121 @@
+services:
+  roundcube-1410:
+    build:
+      context: .
+      args:
+        TARGET_VERSION: "1.4.10"
+    container_name: roundcube-1410
+    environment:
+      TARGET_VERSION: "1.4.10"
+      ROUNDCUBE_DB: "roundcube"
+      ROUNDCUBE_DB_USER: "roundcube"
+      ROUNDCUBE_DB_PASS: "Roundcube.123"
+      TEST_USER: "roundcube"
+      TEST_PASS: "Roundcube.123"
+    ports:
+      - "1410:80"
+    profiles: ["1.4.10"]
+
+  roundcube-1610:
+    build:
+      context: .
+      args:
+        TARGET_VERSION: "1.6.10"
+    container_name: roundcube-1610
+    environment:
+      TARGET_VERSION: "1.6.10"
+      ROUNDCUBE_DB: "roundcube"
+      ROUNDCUBE_DB_USER: "roundcube"
+      ROUNDCUBE_DB_PASS: "Roundcube.123"
+      TEST_USER: "roundcube"
+      TEST_PASS: "Roundcube.123"
+    ports:
+      - "1610:80"
+    profiles: ["1.6.10"]
+
+  roundcube-1611:
+    build:
+      context: .
+      args:
+        TARGET_VERSION: "1.6.11"
+    container_name: roundcube-1611
+    environment:
+      TARGET_VERSION: "1.6.11"
+      ROUNDCUBE_DB: "roundcube"
+      ROUNDCUBE_DB_USER: "roundcube"
+      ROUNDCUBE_DB_PASS: "Roundcube.123"
+      TEST_USER: "roundcube"
+      TEST_PASS: "Roundcube.123"
+    ports:
+      - "1611:80"
+    profiles: ["1.6.11"]
+
+  roundcube-1612:
+    build:
+      context: .
+      args:
+        TARGET_VERSION: "1.6.12"
+    container_name: roundcube-1612
+    environment:
+      TARGET_VERSION: "1.6.12"
+      ROUNDCUBE_DB: "roundcube"
+      ROUNDCUBE_DB_USER: "roundcube"
+      ROUNDCUBE_DB_PASS: "Roundcube.123"
+      TEST_USER: "roundcube"
+      TEST_PASS: "Roundcube.123"
+    ports:
+      - "1612:80"
+    profiles: ["1.6.12"]
+
+  roundcube-1613:
+    build:
+      context: .
+      args:
+        TARGET_VERSION: "1.6.13"
+    container_name: roundcube-1613
+    environment:
+      TARGET_VERSION: "1.6.13"
+      ROUNDCUBE_DB: "roundcube"
+      ROUNDCUBE_DB_USER: "roundcube"
+      ROUNDCUBE_DB_PASS: "Roundcube.123"
+      TEST_USER: "roundcube"
+      TEST_PASS: "Roundcube.123"
+    ports:
+      - "1613:80"
+    profiles: ["1.6.13"]
+
+  roundcube-1614:
+    build:
+      context: .
+      args:
+        TARGET_VERSION: "1.6.14"
+    container_name: roundcube-1614
+    environment:
+      TARGET_VERSION: "1.6.14"
+      ROUNDCUBE_DB: "roundcube"
+      ROUNDCUBE_DB_USER: "roundcube"
+      ROUNDCUBE_DB_PASS: "Roundcube.123"
+      TEST_USER: "roundcube"
+      TEST_PASS: "Roundcube.123"
+    ports:
+      - "1614:80"
+    profiles: ["1.6.14"]
+
+
+  roundcube-1615:
+    build:
+      context: .
+      args:
+        TARGET_VERSION: "1.6.15"
+    container_name: roundcube-1615
+    environment:
+      TARGET_VERSION: "1.6.15"
+      ROUNDCUBE_DB: "roundcube"
+      ROUNDCUBE_DB_USER: "roundcube"
+      ROUNDCUBE_DB_PASS: "Roundcube.123"
+      TEST_USER: "roundcube"
+      TEST_PASS: "Roundcube.123"
+    ports:
+      - "1615:80"
+    profiles: ["1.6.15"]
+
