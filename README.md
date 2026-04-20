@@ -52,6 +52,9 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 Currently, we can deploy the following Roundcube versions: `1.4.10` and `1.6.10` to `1.6.15` (you can easily add more versions to `docker-compose.yml`).
 To deploy them use `docker compose` command:
 ```bash
+# build them all
+sudo docker compose build
+
 # Roundcube 1.4.10 | available at localhost:1410
 sudo docker compose up roundcube-1410
 
